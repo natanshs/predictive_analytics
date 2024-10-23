@@ -1,6 +1,6 @@
 # Personalised Product Recommendation System
 ## Flipkart GRiD 5.0
-This code implements a personalized product recommendation system using collaborative filtering technique and Singular Value Decomposition (SVD) for generating user-specific recommendations. Here's a brief overview of the code:
+This code implements a personalized product recommendation system using collaborative filtering technique and Singular Value Decomposition (SVD) for generating user-specific recommendations along with sentimental analysis . Here's a brief overview of the code:
 
 ## Roadmap
 
@@ -8,7 +8,7 @@ This code implements a personalized product recommendation system using collabor
 The necessary libraries for data manipulation, analysis, and visualization are imported.
 
 ### - Add more integrations
-Reads a CSV file containing user-product ratings data.
+Reads a CSV file using pandas containing user-product ratings data.
 Drops the 'timestamp' column and prints descriptive statistics of the DataFrame.
 
 ### - Exploratory Data Analysis (EDA):
